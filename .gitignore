@@ -1,0 +1,52 @@
+# ============================================
+# Git Ignore - CTF-AI Solver Pro
+# ============================================
+
+# Entornos virtuales Python
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Secretos, tokens y credenciales de API (NUNCA SUBIR A GIT)
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.secret
+
+# Byte-compiled / archivos de caché
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Archivos locales de estado de sesión y perfil de estudiante
+student_profile.json
+study_planner.json
+study_schedule.json
+ctf_session.json
+cert_progress.json
+user_data/
+workspaces/
+*.log
+
+# Informes temporales o artefactos locales
+*.writeup.md
+workspaces/test/
+*.pkt
+*.pka
+*.bat
+*.tmp
+
+# Editores y Sistemas Operativos
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
